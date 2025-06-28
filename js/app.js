@@ -1,6 +1,6 @@
 
-function alterarStatus(numero) {
-  let itemJogo = document.getElementById("game-" + numero);
+function alterarStatus(id) {
+  let itemJogo = document.getElementById(`game-${id}`);
   let botao = itemJogo.querySelector('a');
   let imagem = itemJogo.querySelector('div');
 
